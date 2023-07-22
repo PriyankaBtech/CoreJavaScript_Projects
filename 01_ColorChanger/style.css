@@ -20,20 +20,22 @@ span {
     display: inline-block;
 }
 
-
-#grey {
-    background-color: gray;
+#green {
+    background-color: green;
 }
 
-#white {
-    background-color: white;
+#pink {
+    background-color: pink;
 }
 
 #blue {
     background-color: blue;
-
 }
 
 #yellow {
     background-color: yellow;
+}
+
+#purple {
+    background-color: purple;
 }
