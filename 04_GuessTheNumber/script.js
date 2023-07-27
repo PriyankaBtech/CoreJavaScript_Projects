@@ -1,16 +1,16 @@
 // Guess The Number
 
 //parseInt() parses a string and returns the first integer
-const randomNumber = parseInt(Math.random() * 100 + 1)
+let randomNumber = parseInt(Math.random() * 100 + 1)
 //console.log(randomNumber)
 
-// form
+// form | input
 const userGuess = document.querySelector('#guessField')
 const submit = document.querySelector('#subt')
 
 
 //div(result)
-const result = document.querySelector('.result')
+const startOver = document.querySelector('.result')
 
 const previousGuess = document.querySelector('.guesses')
 const remaining = document.querySelector('.lastResult')
@@ -66,19 +66,41 @@ function checkGuess(guess) {
     
 }
 
+// cleanup method
 function displayGuess(guess) {
-    
+    userGuess.value = ''
+    previousGuess.innerHTML += `${guess},  `
+    numGuess ++
+    remaining.innerHTML = `${11 - numGuess}`    
 }
 
 function displayMessage(msg) {
+    lowOrHigh.innerHTML = `<h1>${msg}</h1>`
     
 }
 
 function newGame() {
-
+    userGuess.value = ''
+    userGuess.setAttribute('disabled', '')
+    para.classList.add('button')
+    para.innerHTML = `<h2 id="newGame">Start New Game<h2/>`
+    startOver.appendChild(para)
+    playGame = false
+    newGame()
 }
 
 function endGame() {
+    const newGameStart = document.querySelector('#newGame')
+    newGameStart.addEventListener('click', function(e) {
+        randomNumber = parseInt(Math.random() * 100 + 1)
+        prevGuess = []
+        numGuess = 1
+        previousGuess.innerHTML = ''
+        remaining.innerHTML = `${11 - numGuess}`
+        userGuess.removeAttribute('disabled')
+        startOver.removeChild(para)               
+        playGame = true
+    })
 
 }
 
