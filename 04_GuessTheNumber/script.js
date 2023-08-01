@@ -86,6 +86,7 @@ function newGame() {
     para.innerHTML = `<h2 id="newGame">Start New Game<h2/>`
     startOver.appendChild(para)
     playGame = false
+
     newGame()
 }
 
@@ -101,6 +102,7 @@ function endGame() {
         startOver.removeChild(para)               
         playGame = true
     })
-
 }
+
+
 
