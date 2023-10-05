@@ -1,4 +1,4 @@
-**Build Multiple Projects of JavaScript**
+# Build Multiple Projects of JavaScript
 
 Description: This repository contains JavaScript projects and each designed to address specific functionalities or use cases.
 
