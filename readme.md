@@ -1,4 +1,4 @@
-Build Multiple Porjects of JavaScript
+**Build Multiple Porjects of JavaScript**
 
 1. Color Changer Link : https://priyankabackgroundcolorchanger.netlify.app/
 2. BMI Calculator Link : https://priyankabmicalculator.netlify.app/
