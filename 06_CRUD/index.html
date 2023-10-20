@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </head>
-<body style="background-color: black;">
+<body style="background-color: rgb(35, 3, 3);">
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -59,14 +59,16 @@
           <button id="add-btn" class="btn btn-outline-secondary" type="button" id="button-addon2">Add</button>
         </div>
         <!-- list -->
-      <ul class="list-group">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-        <li class="list-group-item">A fourth item</li>
-        <li class="list-group-item">And a fifth one</li>
+      <ul id="topic-list" class="list-group">
+        <li class="list-group-item d-flex justify-content-between">
+          <h3>Topic-1</h3> 
+          <div>
+            <button class="btn btn-edit">Edit</button>
+            <button class="btn btn-delete" onclick="removeTopic(this)">Delete</button>
+          </div>
+        </li>
       </ul>      
-      </div>     
+      </div>
     </main>
 
     <script src="./script.js"></script>
