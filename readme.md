@@ -6,7 +6,8 @@ Description: This repository contains JavaScript projects and each designed to a
 2. BMI Calculator : https://priyankabmicalculator.netlify.app/
 3. Digital Clock : https://priyankadigitalclock.netlify.app/
 4. Guess The Number : https://priyankaguessnumber.netlify.app/
-5. Keyboard Check : https://priyankakeyboardcheck.netlify.app/   
+5. Keyboard Check : https://priyankakeyboardcheck.netlify.app/
+6. CRUD : https://priyankacrudoperation.netlify.app/  
 
 Projects Overview: 
 
@@ -24,6 +25,13 @@ In this project user play the game where players try to guess a randomly chosen 
 
 ## Keyboard check
 In this project user detects and displays the keys you press on your keyboard in real-time. It's a simple utility for testing and visualizing keyboard input, useful for debugging and educational purposes.
+
+## CRUD App
+A simple JavaScript CRUD app for data management.
+Create: Adding new data.
+Read: Viewing existing data.
+Update: Modifying existing data.
+Delete: Removing data from the system.
 
 
 
