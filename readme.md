@@ -28,6 +28,8 @@ In this project user detects and displays the keys you press on your keyboard in
 
 ## CRUD App
 A simple JavaScript CRUD app for data management.
+
+
 Create: Adding new data.
 Read: Viewing existing data.
 Update: Modifying existing data.
