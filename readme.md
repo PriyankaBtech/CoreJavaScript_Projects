@@ -2,7 +2,7 @@
 
 Description: This repository contains JavaScript projects and each designed to address specific functionalities or use cases.
 
-1. Color Changer : https://priyankabackgroundcolorchanger.netlify.app/
+1. Color Changer : https://priyankacolorchangerswitcher.netlify.app/
 2. BMI Calculator : https://priyankabmicalculator.netlify.app/
 3. Digital Clock : https://priyankadigitalclock.netlify.app/
 4. Guess The Number : https://priyankaguessnumber.netlify.app/
