@@ -14,7 +14,7 @@ Projects Overview:
 ## Color Changer 
 This project allows users to change the background color of a web page with a click of a button. Users can click the specific button to see the background color change. It's a fun and interactive way to experiment with different colors on a web page.
 
-![Screenshot (784)](https://github.com/PriyankaBtech/React_with_Projects/assets/109729930/2bb391c0-da69-4c8a-8862-3b7d1360e9fe)
+![Screenshot (793)](https://github.com/PriyankaBtech/Core_JavaScript_Projects/assets/109729930/29ba4014-e089-44b5-97fa-801701a5e88d)
 
 
 ## BMI Calculator
