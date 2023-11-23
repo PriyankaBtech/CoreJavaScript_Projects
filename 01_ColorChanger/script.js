@@ -1,10 +1,10 @@
 // Background color changer
 
-const colorButton = document.querySelectorAll('.button')
+const colorButton = document.querySelectorAll('.button') // NodeList
 
 // apply loop on button
 colorButton.forEach(function(button) {
-    console.log(button)
+    //console.log(button)
     button.addEventListener('click', function(e) {
         // look on browser console
         console.log(e)
