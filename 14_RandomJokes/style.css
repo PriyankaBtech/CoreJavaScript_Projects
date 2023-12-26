@@ -13,15 +13,23 @@ body {
     font-family: 'Playfair Display', serif;
     max-width: 500px;
     max-height: 500px;
+    background-color: rgb(196, 196, 130);
+    color: black;
+    border-radius: 12px;
+    padding: 15px 20px;
 }
 
 .btn {
-    padding: 10px;
+    padding: 12px 20px;
     margin-top: 40px;
     border: none;
     background: transparent;
     border-bottom: 1px solid rgb(234, 205, 210);
-    color: #f3d2d9;
+    color: black;
     cursor: pointer;
     border: 2px solid white;
+    background-color: rgb(70, 139, 72);
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 15px;
 }
