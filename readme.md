@@ -7,7 +7,18 @@ Description: This repository contains JavaScript projects and each designed to a
 3. Digital Clock : https://priyankadigitalclock.netlify.app/
 4. Guess The Number : https://priyankaguessnumber.netlify.app/
 5. Keyboard Check : https://priyankakeyboardcheck.netlify.app/
-6. CRUD : https://priyankacrudoperation.netlify.app/  
+6. CRUD : https://priyankacrudoperation.netlify.app/
+7. Create Circle : https://priyankacreatecircle.netlify.app/
+8. Scroll : https://priyankascroll.netlify.app/
+9. Auto Text : https://priyankaautotype.netlify.app/
+10. Mouse Cicle : https://priyankamousecircle.netlify.app/
+11. Random Emoji : https://priyankarandomemoji.netlify.app/
+12. Text Formatter : https://priyankatextformatter.netlify.app/
+13. Random Images : https://priyankarandomimages.netlify.app/
+14. Random Jokes : https://priyankarandomjokes.netlify.app/
+15. Random Cat Image : https://priyankarandomcat.netlify.app/
+16. Book List App : https://priyankabooklist.netlify.app/
+17. Debounce Search : https://priyankadebouncesearch.netlify.app/
 
 Projects Overview: 
 
